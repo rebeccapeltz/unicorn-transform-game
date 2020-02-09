@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 768px) {
     .message {
         position: absolute;
         /* top: 16px; */
@@ -7,12 +7,14 @@
         right: 16px;
         padding: 8px 16px;
         background: white;
-        color: black;
+        color: red;
+        /* color: black; */
         font-family: 'Rye', cursive;
         /* font-family: monospace; */
-        font-size: 18px;
+        font-size: 10px;
     }
 }
+@media only screen and (min-width: 768px) {
 .message {
     position: absolute;
     /* top: 16px; */
@@ -20,11 +22,14 @@
     right: 16px;
     padding: 8px 16px;
     background: white;
-    color: black;
+    color: purple;
+    /* color: black; */
     font-family: 'Rye', cursive;
     /* font-family: monospace; */
-    font-size: 10px;
+    font-size: 18px;
 }
+}
+
 
 
 /* font-family: 'Berkshire Swash', cursive;
