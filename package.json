@@ -1,0 +1,15 @@
+{
+  "name": "game",
+  "version": "1.0.0",
+  "description": "In this project, you will be asked to create a simple text adventure game that allows a user to make choices that influence the outcome. To accomplish this goal, you will use functions that can execute whenever an Event is triggered. (Note: You will not be required to create the Events.)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cornified": "^1.1.0",
+    "cornify": "^0.1.0"
+  }
+}
